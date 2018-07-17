@@ -1,0 +1,15 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "WorKpos",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "nodemon -e js,css,ejs,json app/app.js --watch app"
+  },
+  "author": "Nazim",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
